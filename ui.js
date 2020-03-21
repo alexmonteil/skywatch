@@ -25,7 +25,7 @@ class UI {
     // Display temperature
     this.string.textContent = `${weather.main.temp} ˚F`;
     // Display icon
-    this.icon.setAttribute('src', `http://openweathermap.org/img/w/${weather.weather[0].icon}.png`);
+    this.icon.setAttribute('src', `https://openweathermap.org/img/w/${weather.weather[0].icon}.png`);
     // Display humidity
     this.humidity.textContent = `Relative humidity: ${weather.main.humidity} %`;
     // Display feels like
